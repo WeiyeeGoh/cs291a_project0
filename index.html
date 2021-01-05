@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>291A Project 0 website</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:powderblue;">
+
+<div style="text-align:center;">
+	<h1>Cute Cats</h1>
+</div>
+
+<div>
+	<ul id="cat-list">
+	  <li>
+	  	<span>Jill</span></br></br>
+	  	<div class="image_div">
+			<img src="img/cat1.jpg" alt="none">
+		</div>
+	  </li>
+	  <li>
+	  	<span>Eve</span></br></br>
+	  	<div class="image_div">
+			<img src="img/cat2.jpg" alt="none">
+		</div>
+	  </li>
+	  <li>
+	  	<span id="b">Jack</span></br></br>
+	  	<div class="image_div">
+			<img id="a" src="img/cat3.jpg" alt="none">
+		</div>
+	  </li>
+	</ul>
+</div>
+
+</br></br></br></br>
+
+
+<table class="center_table">
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>Mass</th>
+
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>5</td>
+    <td>8.2kg</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>7</td>
+    <td>8.5kg</td>
+  </tr>
+  <tr>
+    <td>Jack</td>
+    <td>10</td>
+    <td onclick="best_cat()">9.1kg</td>
+  </tr>
+</table>
+
+</br>
+
+<div style="text-align:center;" >
+	<a href="url">Github Source Code</a>
+</div>
+
+<script> function best_cat() { document.getElementById("a").src="img/cat4.jpg"; document.getElementById("b").innerHTML = "?%#@()@#$&)"; } </script>
+
+</body>
+</html>
